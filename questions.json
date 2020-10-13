@@ -1,0 +1,86 @@
+[ 
+    {
+        "question": "What year did the first Godzilla film, Gojira, release in Japan?",
+        "answers": [
+            "1960",
+            "1954",
+            "1956",
+            "1945"
+        ],
+        "correctAnswer": "1954",
+        "explanation": "Gojira, Godzilla's first film, released in October 1954, Less than a decade after World War II."
+    },
+    {
+        "question": "What monster was Godzilla's first opponent?",
+        "answers": [
+            "King Kong",
+            "Mothra",
+            "Anguirus",
+            "None of the above"
+        ],
+        "correctAnswer": "Anguirus",
+        "explanation": "In Godzilla Raids Again (1956), the King of the Monsters would face his first opponent, the ferocious Anguirus!"
+    },
+    {
+        "question": "True or False: Godzilla's original japanese name is also Godzilla.",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "Godzilla is actually the westernized version of the monsters original name, Gojira. A name that is a combination of the japanese words for gorilla and whale."
+    },
+    {
+        "question": "Which of these Godzilla monsters are aliens?",
+        "answers": [
+            "King Ghidorah",
+            "Mothra",
+            "Rodan",
+            "Baragon"
+        ],
+        "correctAnswer": "King Ghidorah",
+        "explanation": "In Ghidorah, The Three Headed Monster (1964), the triple-head beast is described to be an alien from Venus."
+    },
+    {
+        "question": "True or False: In King Kong Vs Godzilla, King Kong is the victor.",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Despite popular misconception, it's actually Kong that's the winner of the fight between him and Godzilla."
+    },
+    {
+        "question": "What year did Godzilla made his first appearance in a color film?",
+        "answers": [
+            "1965",
+            "1954",
+            "1985",
+            "1962"
+        ],
+        "correctAnswer": "1962",
+        "explanation": "Godzilla's first appearance in color would actually be in 1962, in King Kong Vs Godzilla!"
+    },
+    {
+        "question": "Which of these movies did Godzilla battle a giant plant monster?",
+        "answers": [
+            "Godzilla vs Biollante",
+            "Return of Godzilla",
+            "Mothra Vs Godzilla",
+            "Godzilla Vs King Ghidorah"
+        ],
+        "correctAnswer": "Godzilla Vs Biollante",
+        "explanation": "Biollante is a giant monster that is created by combining the DNA of Godzilla, a plant, and a human child, making it one of the G-man's most unique opponents."
+    },
+    {
+        "question": "In the Marvel Godzilla comics published in the 1970s, it is stated that the giant monster's strength is equal to which of these Avengers?",
+        "answers": [
+            "Iron Man",
+            "Thor",
+            "Hulk",
+            "Captain Marvel"
+        ],
+        "correctAnswer": "Thor",
+        "explanation": "In a battle between Godzilla and the Avengers, it's revealed to the readers that the monster matches in strength with the God of Thunder, Thor!"
+    }
+]
