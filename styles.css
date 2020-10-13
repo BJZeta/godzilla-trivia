@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "Secular One", sans-serif;
+}
+
+/* MENU SCREEN */
+
+.menu {
+  color: red;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu h2 {
+  font-size: 40px;
+}
+
+.menu button {
+  padding: 20px;
+  position: absolute;
+  top: 60vh;
+  left: 16vh;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  font-family: "Secular One", sans-serif;
+}
+
+.menu button:hover {
+  color: red;
+  background-color: #000;
+  border: 2px solid red;
+}
+
+/* QUESTION/ANSWER SCREEN */
+.game-screen {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.question {
+  color: red;
+  text-align: center;
+  position: relative;
+}
+
+.question img {
+  max-height: 100%;
+}
+
+.question .countdown {
+  position: absolute;
+  font-size: 30px;
+  left: 10em;
+}
+
+.answer-section {
+  flex-direction: row;
+  margin: 12em 0 auto;
+}
+
+.answer-section button {
+  font-family: "Secular One", sans-serif;
+  font-size: 18px;
+  padding: 12px;
+  width: 40%;
+  margin: 20px 20px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: red;
+  color: #000;
+}
+
+.answer-section button:hover {
+  color: red;
+  background-color: #000;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+/* RESULT SECTION */
+.correct {
+  color: #7bfb21;
+}
+
+.next {
+  margin: 10px auto;
+}
+
+.next button {
+  font-family: "Secular One", sans-serif;
+  font-size: 18px;
+  padding: 12px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: #7bfb21;
+  color: #000;
+}
+
+.next button:hover {
+  border: 2px solid #7bfb21;
+  border-radius: 20px;
+  background-color: #000;
+  color: #7bfb21;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .question .countdown {
+    left: 7.5em;
+  }
+}
