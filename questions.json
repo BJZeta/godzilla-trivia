@@ -82,5 +82,25 @@
         ],
         "correctAnswer": "Thor",
         "explanation": "In a battle between Godzilla and the Avengers, it's revealed to the readers that the monster matches in strength with the God of Thunder, Thor!"
+    },
+    {
+        "question": "True or False: Godzilla has never been killed in any of the movies.",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "Despite being one of the most powerful fictional creatures in cinema, Godzilla has actually been killed at least 5 times in the entire franchise, 6 if you include the American Godzilla from 1998."
+    },
+    {
+        "question": "Godzilla is the King of the Monsters",
+        "answers": [
+            "True",
+            "True",
+            "True",
+            "True"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Godzilla was, is, and always will be, the KING OF THE MONSTERS!"
     }
 ]
