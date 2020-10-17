@@ -44,18 +44,25 @@ $.ajax({
         
         }
 
+        ///////////////////////////Answer Screen
+    function questionIs(correct) {
+        if(correct) {
+            
+        }
+    }
+
         /////////////////////////////////////////////Start Button
         start.addEventListener('click', () => runGame());
     },
-    error: () => alert("didnt work")
+    error: () => alert("didnt work")    
 })
 
 /////////////////////////////////////////////Check if Answer is Correct
 function checkAnswer(selectedAns, correctAns) {
     if(selectedAns === correctAns) {
-        console.log("correct");
+        questionIs(correct)
     } else {
-        console.log("incorrect");
+        questionIs(!correct)
     }
 }
 
