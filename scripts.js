@@ -3,66 +3,88 @@ const start = document.getElementById('start');
 const gameScreen = document.getElementById('game-screen');
 const questionSec = document.getElementById('question');
 const answerSec = document.getElementById('answer-section');
-const answerBtn = document.getElementById('answerbtn');
+let questions
+
 $.ajax({
     type: "Get",
     url: "questions.json",
     dataType: "json",
     success: function(data) {
 
-        const questions = data;
+        questions = data;
+        
+    }
+    
+}).then(()=> {
+    start.addEventListener('click', () => runGame())
 
-        ///////////////////////Starts Game
-        function runGame() {
-            menu.innerHTML = "";
-            let questionCount = 1;
-            if(questions[0]) {
-                questionMaker(questionCount);
-            } else {
-                finalScreen();
-            }
-        }
-
-        ////////////////////////////////////////Sets up question board
-        function questionMaker(questionCount) { 
-            const question = questions[0];  
-            const answers = question.answers;
-            const correctAnswer = question.correctAnswer;
-        
-            console.log(questions);
-        
-            questionSec.innerHTML = `
-                <h3>Question ${questionCount}<h3>
-                    <p>${question.question}<p>
-            `
-        
-            const allAnswers = answers.map(answer => {
-                return `<button onclick="checkAnswer(${answer}, ${correctAnswer})">${answer}</button>`
-            });
-        
-            answerSec.innerHTML = allAnswers;
-        
-        }
-
-        ///////////////////////////Answer Screen
-    function questionIs(correct) {
-        if(correct) {
-            
+    function runGame() {
+        menu.innerHTML = "";
+        let questionCount = 1;
+        if(questions[0]) {
+            questionMaker(questionCount);
+        } else {
+            finalScreen();
         }
     }
 
-        /////////////////////////////////////////////Start Button
-        start.addEventListener('click', () => runGame());
-    },
-    error: () => alert("didnt work")    
+    //////////////////////////////////////Sets up question board
+    function questionMaker(questionCount) { 
+    const question = questions[0];  
+    const answers = question.answers;
+    const correctAnswer = question.correctAnswer;
+
+    questionSec.innerHTML = `
+        <h3>Question ${questionCount}<h3>
+            <p>${question.question}<p>
+    `
+
+    const allAnswers = answers.map(answer => {
+        return `<button value=${answer} >${answer}</button>`
+    });
+
+    answerSec.innerHTML = allAnswers;
+
+    ////////////////BRANDON, THE this SELECTOR WORKS, CONITNUE CODING FROM HERE!!!/////////////////////////
+    $('button').click(function () {
+        console.log($(this).val())
+    })
+
+    }
+
+    
 })
 
-/////////////////////////////////////////////Check if Answer is Correct
-function checkAnswer(selectedAns, correctAns) {
-    if(selectedAns === correctAns) {
-        questionIs(correct)
-    } else {
-        questionIs(!correct)
-    }
-}
 
+
+// function runGame() {
+//     menu.innerHTML = "";
+//     let questionCount = 1;
+//     if(questions[0]) {
+//         questionMaker(questionCount);
+//     } else {
+//         finalScreen();
+//     }
+// }
+
+// //////////////////////////////////////Sets up question board
+// function questionMaker(questionCount) { 
+//     const question = questions[0];  
+//     const answers = question.answers;
+//     const correctAnswer = question.correctAnswer;
+
+//     questionSec.innerHTML = `
+//         <h3>Question ${questionCount}<h3>
+//             <p>${question.question}<p>
+//     `
+
+//     const allAnswers = answers.map(answer => {
+//         return `<button onclick="checkAnswer(${answer}, ${correctAnswer})">${answer}</button>`
+//     });
+
+//     answerSec.innerHTML = allAnswers;
+
+// }
+
+// /////////////////////////////////////////////Start Button
+// start.addEventListener('click', () => runGame());
