@@ -71,16 +71,18 @@ body {
 }
 
 .answer-section {
-  flex-direction: row;
+  display: grid;
+  align-items: center;
+  justify-content: center;
   margin: 12em 0 auto;
+  grid-template-columns: 2fr;
 }
 
 .answer-section button {
   font-family: "Secular One", sans-serif;
   font-size: 18px;
   padding: 12px;
-  width: 40%;
-  margin: 20px 20px;
+
   border: 2px solid #000;
   border-radius: 20px;
   background-color: red;
@@ -103,7 +105,7 @@ body {
   margin: 10px auto;
 }
 
-.next button {
+.next {
   font-family: "Secular One", sans-serif;
   font-size: 18px;
   padding: 12px;
@@ -113,7 +115,7 @@ body {
   color: #000;
 }
 
-.next button:hover {
+.next:hover {
   border: 2px solid #7bfb21;
   border-radius: 20px;
   background-color: #000;
