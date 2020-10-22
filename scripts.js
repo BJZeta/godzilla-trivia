@@ -5,6 +5,7 @@ const questionSec = document.getElementById("question");
 const answerSec = document.getElementById("answer-section");
 let questions;
 
+///////GETS question data from questions.json
 $.ajax({
   type: "Get",
   url: "questions.json",
@@ -26,7 +27,7 @@ $.ajax({
     questionMaker(questionCount);
     questionCount++;
   }
-  //////////////////////////////////////Sets up question board
+  ////////////////Sets up question board
   function questionMaker(questionCount) {
     if (questions[0]) {
       const question = questions[0];
@@ -90,6 +91,8 @@ $.ajax({
     }
   }
 
+  ///////////FINAL SCORE Screen
+
   function finalScreen(score) {
     questionSec.innerHTML = `
       <h1 class="correct">COMPLETE</h1>
@@ -104,35 +107,3 @@ $.ajax({
     `;
   }
 });
-
-// function runGame() {
-//     menu.innerHTML = "";
-//     let questionCount = 1;
-//     if(questions[0]) {
-//         questionMaker(questionCount);
-//     } else {
-//         finalScreen();
-//     }
-// }
-
-// //////////////////////////////////////Sets up question board
-// function questionMaker(questionCount) {
-//     const question = questions[0];
-//     const answers = question.answers;
-//     const correctAnswer = question.correctAnswer;
-
-//     questionSec.innerHTML = `
-//         <h3>Question ${questionCount}<h3>
-//             <p>${question.question}<p>
-//     `
-
-//     const allAnswers = answers.map(answer => {
-//         return `<button onclick="checkAnswer(${answer}, ${correctAnswer})">${answer}</button>`
-//     });
-
-//     answerSec.innerHTML = allAnswers;
-
-// }
-
-// /////////////////////////////////////////////Start Button
-// start.addEventListener('click', () => runGame());
