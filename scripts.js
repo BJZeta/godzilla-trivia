@@ -56,6 +56,7 @@ $.ajax({
           questionSec.innerHTML = `
                     <h3 class="correct">Correct!</h3>
                     <p class="correct">${question.explanation}</p>
+                    <img src="${question.gif}" alt="GQuestion-${questionCount}">
                 `;
 
           questions.shift();
@@ -67,11 +68,11 @@ $.ajax({
                 `;
         } else {
           questions.shift();
-          score--;
 
           questionSec.innerHTML = `
                     <h3>Wrong!</h3>
                     <p>${question.explanation}</p>
+                    <img src="${question.gif}" alt="GQuestion-${questionCount}">
                 `;
 
           answerSec.innerHTML = `
@@ -85,8 +86,22 @@ $.ajax({
         });
       });
     } else {
-      console.log("done");
+      finalScreen(score);
     }
+  }
+
+  function finalScreen(score) {
+    questionSec.innerHTML = `
+      <h1 class="correct">COMPLETE</h1>
+      <img src="https://media.giphy.com/media/b2rLe6TwuIkyQ/giphy.gif" alt="final-screen">
+    `;
+
+    answerSec.innerHTML = `
+      <h3 class="correct">Final Score:</h3>
+      <br>
+      <h3 class="correct">${score} / 12 Correct</h3>
+      <h4 class="correct">Hit refresh for another go!</h4>
+    `;
   }
 });
 

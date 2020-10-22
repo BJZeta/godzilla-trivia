@@ -1,106 +1,91 @@
-[ 
-    {
-        "question": "What year did the first Godzilla film, Gojira, release in Japan?",
-        "answers": [
-            "1960",
-            "1954",
-            "1956",
-            "1945"
-        ],
-        "correctAnswer": "1954",
-        "explanation": "Gojira, Godzilla's first film, released in October 1954, Less than a decade after World War II."
-    },
-    {
-        "question": "What monster was Godzilla's first opponent?",
-        "answers": [
-            "King Kong",
-            "Mothra",
-            "Anguirus",
-            "None of the above"
-        ],
-        "correctAnswer": "Anguirus",
-        "explanation": "In Godzilla Raids Again (1956), the King of the Monsters would face his first opponent, the ferocious Anguirus!"
-    },
-    {
-        "question": "True or False: Godzilla's original japanese name is also Godzilla.",
-        "answers": [
-            "True",
-            "False"
-        ],
-        "correctAnswer": "False",
-        "explanation": "Godzilla is actually the westernized version of the monsters original name, Gojira. A name that is a combination of the japanese words for gorilla and whale."
-    },
-    {
-        "question": "Which of these Godzilla monsters are aliens?",
-        "answers": [
-            "King Ghidorah",
-            "Mothra",
-            "Rodan",
-            "Baragon"
-        ],
-        "correctAnswer": "King Ghidorah",
-        "explanation": "In Ghidorah, The Three Headed Monster (1964), the triple-head beast is described to be an alien from Venus."
-    },
-    {
-        "question": "True or False: In King Kong Vs Godzilla, King Kong is the victor.",
-        "answers": [
-            "True",
-            "False"
-        ],
-        "correctAnswer": "True",
-        "explanation": "Despite popular misconception, it's actually Kong that's the winner of the fight between him and Godzilla."
-    },
-    {
-        "question": "What year did Godzilla made his first appearance in a color film?",
-        "answers": [
-            "1965",
-            "1954",
-            "1985",
-            "1962"
-        ],
-        "correctAnswer": "1962",
-        "explanation": "Godzilla's first appearance in color would actually be in 1962, in King Kong Vs Godzilla!"
-    },
-    {
-        "question": "Which of these movies did Godzilla battle a giant plant monster?",
-        "answers": [
-            "Godzilla Vs Biollante",
-            "Return of Godzilla",
-            "Mothra Vs Godzilla",
-            "Godzilla Vs King Ghidorah"
-        ],
-        "correctAnswer": "Godzilla Vs Biollante",
-        "explanation": "Biollante is a giant monster that is created by combining the DNA of Godzilla, a plant, and a human child, making it one of the G-man's most unique opponents."
-    },
-    {
-        "question": "In the Marvel Godzilla comics published in the 1970s, it is stated that the giant monster's strength is equal to which of these Avengers?",
-        "answers": [
-            "Iron Man",
-            "Thor",
-            "Hulk",
-            "Captain Marvel"
-        ],
-        "correctAnswer": "Thor",
-        "explanation": "In a battle between Godzilla and the Avengers, it's revealed to the readers that the monster matches in strength with the God of Thunder, Thor!"
-    },
-    {
-        "question": "True or False: Godzilla has never been killed in any of the movies.",
-        "answers": [
-            "True",
-            "False"
-        ],
-        "correctAnswer": "False",
-        "explanation": "Despite being one of the most powerful fictional creatures in cinema, Godzilla has actually been killed at least 5 times in the entire franchise, 6 if you include the American Godzilla from 1998."
-    },
-    {
-        "question": "Godzilla is the King of the Monsters",
-        "answers": [
-            "True",
-            "True",
-            "True",
-            "True"
-        ],
-        "correctAnswer": "True",
-        "explanation": "Godzilla was, is, and always will be, the KING OF THE MONSTERS!"
-    }
+[
+  {
+    "question": "What year did the first Godzilla film, Gojira, release in Japan?",
+    "answers": ["1960", "1954", "1956", "1945"],
+    "correctAnswer": "1954",
+    "explanation": "Gojira, Godzilla's first film, released in October 1954, Less than a decade after World War II.",
+    "gif": "https://media.giphy.com/media/RISyqO6JWNjxvDI0WO/giphy.gif"
+  },
+  {
+    "question": "What monster was Godzilla's first opponent?",
+    "answers": ["King Kong", "Mothra", "Anguirus", "None of the above"],
+    "correctAnswer": "Anguirus",
+    "explanation": "In Godzilla Raids Again (1956), the King of the Monsters would face his first opponent, the ferocious Anguirus!",
+    "gif": "https://i.pinimg.com/originals/f0/59/51/f0595199a551e3a8593a46e526a5a710.gif"
+  },
+  {
+    "question": "True or False: Godzilla's original japanese name is also Godzilla.",
+    "answers": ["True", "False"],
+    "correctAnswer": "False",
+    "explanation": "Godzilla is actually the westernized version of the monsters original name, Gojira. A name that is a combination of the japanese words for gorilla and whale.",
+    "gif": "https://media4.giphy.com/media/14bggd232NXuZa/giphy.gif"
+  },
+  {
+    "question": "Which of these Godzilla monsters are aliens?",
+    "answers": ["King Ghidorah", "Mothra", "Rodan", "Baragon"],
+    "correctAnswer": "King Ghidorah",
+    "explanation": "In Ghidorah, The Three Headed Monster (1964), the triple-head beast is described to be an alien from Venus.",
+    "gif": "https://media.giphy.com/media/QtpGzr5JwOBrhezGb7/giphy.gif"
+  },
+  {
+    "question": "True or False: In King Kong Vs Godzilla, King Kong is the victor.",
+    "answers": ["True", "False"],
+    "correctAnswer": "True",
+    "explanation": "Despite popular misconception, it's actually Kong that's the winner of the fight between him and Godzilla.",
+    "gif": "https://media.giphy.com/media/2A0jXvUa3KOufBYT53/giphy.gif"
+  },
+  {
+    "question": "What year did Godzilla made his first appearance in a color film?",
+    "answers": ["1965", "1954", "1985", "1962"],
+    "correctAnswer": "1962",
+    "explanation": "Godzilla's first appearance in color would actually be in 1962, in King Kong Vs Godzilla!",
+    "gif": "https://media.giphy.com/media/c5paNX4a8hc6A/giphy.gif"
+  },
+  {
+    "question": "Which of these movies did Godzilla battle a giant plant monster?",
+    "answers": [
+      "Godzilla Vs Biollante",
+      "Return of Godzilla",
+      "Mothra Vs Godzilla",
+      "Godzilla Vs King Ghidorah"
+    ],
+    "correctAnswer": "Godzilla Vs Biollante",
+    "explanation": "Biollante is a giant monster that is created by combining the DNA of Godzilla, a plant, and a human child, making it one of the G-man's most unique opponents.",
+    "gif": "https://thumbs.gfycat.com/OilyInfiniteBarasinga-max-1mb.gif"
+  },
+  {
+    "question": "In the Marvel Godzilla comics published in the 1970s, it is stated that the giant monster's strength is equal to which of these Avengers?",
+    "answers": ["Iron Man", "Thor", "Hulk", "Captain Marvel"],
+    "correctAnswer": "Thor",
+    "explanation": "In a battle between Godzilla and the Avengers, it's revealed to the readers that the monster matches in strength with the God of Thunder, Thor!",
+    "gif": "https://media.giphy.com/media/EOfarA6ZUqzZu/giphy.gif"
+  },
+  {
+    "question": "True or False: Godzilla has never been killed in any of the movies.",
+    "answers": ["True", "False"],
+    "correctAnswer": "False",
+    "explanation": "Despite being one of the most powerful fictional creatures in cinema, Godzilla has actually been killed at least 5 times in the entire franchise, 6 if you include the American Godzilla from 1998.",
+    "gif": "https://media.giphy.com/media/mDYA5SHbugTYq8ClFq/giphy.gif"
+  },
+  {
+    "question": "Godzilla's height has altered throughout decades of films. What is the monster's height at his TALLEST?",
+    "answers": ["50m (167ft)", "300m (980ft)", "120m (400ft)", "100m (320ft)"],
+    "correctAnswer": "300m (980ft)",
+    "explanation": "In the Netflix original series Godzilla: Planet of the Monsters (2017), Godzilla is recorded to be a whopping 300 meters, or 980ft tall!",
+    "gif": "https://media.giphy.com/media/l0HUlFZfA0cnvuPS0/giphy.gif"
+  },
+  {
+    "question": "How many Godzilla movies have been made by a Hollywood studio and not from Japan?",
+    "answers": ["2", "3", "4", "5"],
+    "correctAnswer": "3",
+    "explanation": "At the time of this trivia's creation, there have been a total of 3 Godzilla movies made by American studios (one from Tristar Pictures, and two from Warner Bros.",
+    "gif": "https://media.giphy.com/media/wazvvYSGdvJhm/giphy.gif"
+  },
+  {
+    "question": "Godzilla is the King of the Monsters",
+    "answers": ["True", "True", "True", "True"],
+    "correctAnswer": "True",
+    "explanation": "Godzilla was, is, and always will be, the KING OF THE MONSTERS!",
+    "gif": "https://media.giphy.com/media/DrQsEteT3ngBO/giphy.gif"
+  }
 ]

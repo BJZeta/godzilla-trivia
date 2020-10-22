@@ -18,10 +18,10 @@ body {
 
 .menu {
   color: red;
+  display: grid;
   text-align: center;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 .menu h2 {
@@ -30,11 +30,9 @@ body {
 
 .menu button {
   padding: 20px;
-  position: absolute;
-  top: 60vh;
-  left: 16vh;
   font-size: 24px;
   border: none;
+  margin-top: 40vh;
   border-radius: 20px;
   background-color: red;
   font-family: "Secular One", sans-serif;
@@ -61,7 +59,7 @@ body {
 }
 
 .question img {
-  max-height: 100%;
+  max-width: 70%;
 }
 
 .question .countdown {
@@ -74,7 +72,7 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin: 12em 0 auto;
+  margin: 2em 0 auto;
   grid-template-columns: 2fr;
 }
 
@@ -82,7 +80,6 @@ body {
   font-family: "Secular One", sans-serif;
   font-size: 18px;
   padding: 12px;
-
   border: 2px solid #000;
   border-radius: 20px;
   background-color: red;
@@ -102,7 +99,7 @@ body {
 }
 
 .next {
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 .next {
