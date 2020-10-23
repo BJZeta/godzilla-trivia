@@ -35,7 +35,7 @@
     "gif": "https://media.giphy.com/media/2A0jXvUa3KOufBYT53/giphy.gif"
   },
   {
-    "question": "What year did Godzilla made his first appearance in a color film?",
+    "question": "What year did Godzilla make his first appearance in a color film?",
     "answers": ["1965", "1954", "1985", "1962"],
     "correctAnswer": "1962",
     "explanation": "Godzilla's first appearance in color would actually be in 1962, in King Kong Vs Godzilla!",
